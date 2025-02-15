@@ -1,0 +1,1 @@
+proc goodproc {a b} {if {[string eq $a $b]} {return 1} {return 0}} 
