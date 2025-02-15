@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in a Tcl procedure that arises from using the case-sensitive == operator for string comparison instead of the case-insensitive eq operator.  The `badproc.tcl` file contains the buggy code, while `goodproc.tcl` provides the corrected version.  Always use `eq` for case-insensitive string comparisons in Tcl to avoid this common pitfall.
